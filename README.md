@@ -1,17 +1,11 @@
 # Digital Cosmos Portfolio (Static)
 
-✅ Your resume SUMMARY is already placed into About Me and the profile drawer.  
-✅ Your PROJECTS are already loaded as both planets + recruiter-friendly cards.
+✅ New feature: **Fly-to / zoom-in** animation when clicking a planet (no server, no Three.js).
 
-## Customize links
-- In `index.html`: update GitHub/LinkedIn/Email.
-- In `app.js`: for each project, add:
-  - `live: "https://..."` (optional)
-  - `code: "https://github.com/..."`
+## Edit projects
+Open `app.js` → for each project you can set:
+- `live: "https://..."` (optional)
+- `code: "https://github.com/..."`
 
-## Run locally
-- Double-click `index.html` (opens in browser), or
-- Use VS Code + Live Server.
-
-## Deploy to GitHub Pages
-Repo Settings → Pages → Deploy from branch → main / root
+## Deploy
+Push to GitHub → Settings → Pages → Deploy from branch → main / root

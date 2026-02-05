@@ -9,26 +9,23 @@
 </head>
 
 <body id="top">
-  <!-- Starfield -->
   <canvas id="stars" aria-hidden="true"></canvas>
 
-  <!-- Soft vignette + nebula glow -->
   <div class="vignette" aria-hidden="true"></div>
   <div class="nebula nebula-a" aria-hidden="true"></div>
   <div class="nebula nebula-b" aria-hidden="true"></div>
 
-  <!-- Header -->
   <header class="hero">
     <div class="pill" role="note">
       <span class="pill-icon">🚀</span>
       <span>welcome to my Digital universe</span>
     </div>
 
-    <h1 class="title">Digital Cosmos</h1>
+    <h1 class="title">My Digital Cosmos</h1>
 
     <p class="subtitle">
-      Explore my projects floating through the stars. Tap a planet to open details,
-      or scroll down to the Projects section for a recruiter-friendly view.
+      Explore my projects floating through the stars. Tap a planet to fly in and open details,
+      or scroll down for a recruiter-friendly Projects section.
     </p>
 
     <div class="hero-actions">
@@ -37,23 +34,19 @@
     </div>
   </header>
 
-  <!-- Orbit field -->
   <main class="space" aria-label="Interactive projects">
     <div id="objects" class="objects" aria-live="polite"></div>
 
-    <!-- Hint -->
     <div class="hint" id="hint">
       <span class="hint-icon">✨</span>
       <span>Tap objects to explore projects</span>
     </div>
 
-    <!-- Floating profile button -->
     <button class="fab" id="profileBtn" aria-label="Open profile">
       <span class="fab-icon">👤</span>
     </button>
   </main>
 
-  <!-- ======= CONTENT SECTIONS (scroll) ======= -->
   <div class="content">
     <section id="projects" class="section">
       <div class="section-head">
@@ -98,7 +91,6 @@
     </footer>
   </div>
 
-  <!-- Modal -->
   <div class="modal-backdrop" id="backdrop" hidden></div>
 
   <section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
@@ -119,7 +111,6 @@
     </div>
   </section>
 
-  <!-- Profile drawer -->
   <aside class="drawer" id="drawer" aria-label="Profile panel" hidden>
     <div class="drawer-top">
       <div class="avatar" aria-hidden="true">JS</div>
