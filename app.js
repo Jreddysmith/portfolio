@@ -134,7 +134,7 @@ const PROJECTS = [
     id: "battle-craft",
     title: "Battle Craft \u2014 2016",
     desc: "Built a web-based strategy game with stateful game logic and resource management.",
-    tags: ["Ruby on Rails", "Angular", "ActiveRecord", "Nginx", "AWS"],
+    tags: ["JavaScript", "Angular", "ActiveRecord", "Nginx", "AWS"],
     live: "",
     code: "",
     x: 70, y: 78,
